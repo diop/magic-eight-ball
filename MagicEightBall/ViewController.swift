@@ -10,13 +10,55 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let startups = ["Make School", "Uber", "Netflix", "Facebook", "Google", "Kickstarter", "Spotify", "Airbnb", "Snapchat", "YouTube", "Dropbox", "Amazon", "Craigslist", "Tinder", "Instagram", "Tesla", "Twitter", "SpaceX"]
+    let startups = [
+        "Make School",
+        "Uber",
+        "Netflix",
+        "Facebook",
+        "Google",
+        "Kickstarter",
+        "Spotify",
+        "Airbnb",
+        "Snapchat",
+        "YouTube",
+        "Dropbox",
+        "Amazon",
+        "Craigslist",
+        "Tinder",
+        "Instagram",
+        "Tesla",
+        "Twitter",
+        "SpaceX"
+    ]
     
-    let categories = ["Dogs", "Books", "Gamers", "Star Wars", "Bitcoin", "Goats", "Zombies", "Rich People", "Swimmers", "Florida", "Vampires", "Dragons", "Internet of Things", "Mars", "Cryptocurrency", "Mosquito Repellent", "Fidget Spinners", "Sun Screen", "Water Bottles", "Lost Travelers", "Superheroes"]
+    let categories = [
+        "Dogs",
+        "Books",
+        "Gamers",
+        "Star Wars",
+        "Bitcoin",
+        "Goats",
+        "Zombies",
+        "Rich People",
+        "Swimmers",
+        "Florida",
+        "Vampires",
+        "Dragons",
+        "Internet of Things",
+        "Mars",
+        "Cryptocurrency",
+        "Mosquito Repellent",
+        "Fidget Spinners",
+        "Sun Screen",
+        "Water Bottles",
+        "Lost Travelers",
+        "Superheroes"
+    ]
+    
     @IBOutlet weak var answerLabel: UILabel!
     @IBOutlet weak var shakeButton: UIButton!
-    
     @IBOutlet weak var categoriesLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
